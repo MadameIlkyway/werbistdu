@@ -28,10 +28,23 @@ print("Runde 1 ist geschafft.")
 
 tier = int(input("Wie viele Haustiere hast du? "))
 if tier == 2:
-    print("Das war einfach." )
+    print("Das war einfach. Runde 2 ist geschafft." )
 else: 
     print("Falsch. Bye.")
     quit()
 
+print()
+love = ["Ilke", "ilke"]
+freundin = input("Wie heißt die Frau, die du liebst? ")
+if freundin in love:
+    print("Sehr gut. <3 Kommen wir jetzt zur letzen Frage.")
+else :
+    print("WAAAASSSSS??? ")
+    freundin = input("Du hast noch eine Chance, ansonsten explodiert dein System! ")
+    if freundin in love:
+        print("Nochmal Glück gehabt, Freundchen.")
+    else: 
+        print("Critical Damage in 3...2...1... BOOOOOMMMMMM")
+        quit()    
 
                      
