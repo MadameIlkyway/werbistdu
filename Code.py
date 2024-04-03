@@ -1,15 +1,15 @@
-print()
+print("---------------------")
 print()
 print()
 print("Hallo.")
 print("Ich bin Maike. Ich stehe zwischen dir und deinem Geschenk.")
-print("Ich stelle sicher, dass auch wirklich die richtige Person die notwendigen Informationen bekommt.")
+print("Ich stelle sicher, dass auch wirklich die richtige Person die notwendigen Informationen erhält.")
 print("Ich werde dir ein paar Fragen stellen, um herauszufinden, ob du berechtigt bist.")
 print()
 
 name = input("Wie heißt du? ")
 true_name = ["Robert", "robert"]
-foo = ["foobert", "Foobert"]
+foo = ["foobert", "Foobert", "foo", ]
 if name in true_name:
     print()
     print("Das kann ja jeder sagen.") 
@@ -74,7 +74,9 @@ else:
     print("Hmmm, okay, schade. Ich sags dir trotzdem.")     
 
 print()
-print("Gehe nun zu dem wundersamen Ort, an dem die Drahtesel pausieren.")
-print("Koordinaten: N 51° 18.955 E012 22.175")
-print("Kein X marktiert die Stelle. Dafür ein Stein. Nimm was zum buddeln mit.")
+print("Gehe nun zu dem Ort, an dem Schleußiger Weg und Wildpark aufeinandertreffen.")
+print("N 51° 18.778 E012 21.717")
+print("Kein X marktiert die Stelle. Dafür ein Stein, oder so. Nimm was zum buddeln mit.")
 print("Viel Spaß, bye bye und ciao Kakao. :D ")    
+print()
+print()
