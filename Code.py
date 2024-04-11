@@ -1,11 +1,46 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 print("---------------------")
 print()
 print()
-print("Hallo.")
-print("Ich bin Maike. Ich stehe zwischen dir und deinem Geschenk.")
-print("Ich stelle sicher, dass auch wirklich die richtige Person die notwendigen Informationen erhält.")
-print("Ich werde dir ein paar Fragen stellen, um herauszufinden, ob du berechtigt bist.")
+print("( )   ( )")   
+print("( 0 . 0 )")
+print("( )   ( )")
+print(" (     ) ")
+print("( )___( )")
 print()
+hi = input("Hallo, du da. ")
+
+if hi != " " :
+    print()
+    print("Ich bin Maike. Ich stehe zwischen dir und deinem Geschenk.")
+    print("Ich stelle sicher, dass auch wirklich die richtige Person die notwendigen Informationen erhält.")
+    print("Ich werde dir ein paar Fragen stellen, um herauszufinden, ob du berechtigt bist.")
+    print()
+else :
+    print("hey")
 
 name = input("Wie heißt du? ")
 true_name = ["Robert", "robert"]
